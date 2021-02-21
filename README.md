@@ -3,6 +3,7 @@
 <!-- **mdirshaddev/mdirshaddev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
 Here are some ideas to get you started:
+  <img align="right" alt="GIF" src="https://media.boingboing.net/wp-content/uploads/2015/09/coffee_in_rain_by_kirokaze-d98qb8z.gif" width="450px" height="250px" />
 
 - 🔭 I’m currently working on my own projects
 - 🌱 I’m currently learning Flutter mobile app development
@@ -16,7 +17,7 @@ Here are some ideas to get you started:
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Some Stats ?
 
 <img 
-  src="https://github-readme-stats.vercel.app/api?username=mdirshaddev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&langs_count=true"
+  src="https://github-readme-stats.vercel.app/api?username=mdirshaddev&show_icons=true&theme=gradient&include_all_commits=true&count_private=true&langs_count=true"
   width="100%"
 />
 
@@ -25,7 +26,9 @@ Here are some ideas to get you started:
  [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mdirshaddev)](https://github.com/LordDashMe/github-contribution-stats/)
 
 ### Looking forward to chatting with you !!!
-![Alt Text](https://media.giphy.com/media/12775LeUHMZjNu/source.gif)
+![Sharingan's](https://media.giphy.com/media/12775LeUHMZjNu/source.gif)
+
+<!-- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mdirshaddev&repo=repogit)](https://github.com/anuraghazra/github-readme-stats) -->
 
 <br/>
 
@@ -40,8 +43,12 @@ Here are some ideas to get you started:
  <img src="https://github.com/anishghimire603/anishghimire603/blob/master/Assets/visualstudio.svg" alt="vs" style="vertical-align:top; margin:4px">
  <img src="https://github.com/anishghimire603/anishghimire603/blob/master/Assets/jetbrains_pycharm.svg" alt="pycharm" style="vertical-align:top; margin:4px">
  <img src="https://github.com/anishghimire603/anishghimire603/blob/master/Assets/aws.svg" alt="aws" style="vertical-align:top; margin:4px">  
+ <img src="https://github.com/anishghimire603/anishghimire603/blob/master/Assets/iot.svg" alt="iot" style="vertical-align:top; margin:4px">
 </p>
 
+<br/>
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mdirshaddev&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <br/>
 
