@@ -17,13 +17,13 @@ Here are some ideas to get you started:
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Some Stats ?
 
 <img 
-  src="https://github-readme-stats.vercel.app/api?username=mdirshaddev&show_icons=true&theme=gradient&include_all_commits=true&count_private=true&langs_count=true"
+  src="https://github-readme-stats.vercel.app/api?username=mdirshaddev&show_icons=true&theme=blue-green&include_all_commits=true&count_private=true&langs_count=true"
   width="100%"
 />
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My Contibution Stats:
 
- [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mdirshaddev)](https://github.com/LordDashMe/github-contribution-stats/)
+[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mdirshaddev)](https://github.com/LordDashMe/github-contribution-stats/)
 
 ### Looking forward to chatting with you !!!
 ![Sharingan's](https://media.giphy.com/media/12775LeUHMZjNu/source.gif)
