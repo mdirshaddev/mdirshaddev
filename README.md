@@ -21,6 +21,14 @@ Here are some ideas to get you started:
   width="100%"
 />
 
+<!-- Code Inspector -->
+
+### My Code Inspector Stats
+<a href="https://frontend.code-inspector.com/public/user/github/mdirshaddev">
+   <img src="https://code-inspector.com/public/badge/user/github/mdirshaddev" alt="code inspector badge" />
+</a>
+
+
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My Contibution Stats:
 
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mdirshaddev)](https://github.com/LordDashMe/github-contribution-stats/)
