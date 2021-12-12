@@ -73,10 +73,10 @@ Here are some ideas to get you started:
 
 <p align="center">
   <h4>This boarding pass is for Mission Mars 2026</h4>
-  <img src="https://raw.githubusercontent.com/mdirshaddev/icon-repository/main/BoardingPass_MyNameOnFutureMission.png" />
+  <img src="https://raw.githubusercontent.com/mdirshaddev/icons-repository/main/mars-mission/MarsFutureMission.png" />
  </p>
  
  <p align="center">
   <h4>This boarding pass is for Mission Mars 2020 (Sending the Rover)</h4>
-  <img src="https://raw.githubusercontent.com/mdirshaddev/icon-repository/main/BoardingPass_MyNameOnMars_Mars2020.png" />
+  <img src="https://raw.githubusercontent.com/mdirshaddev/icons-repository/main/mars-mission/Mars2020.png" />
  </p>
