@@ -5,14 +5,14 @@
 Here are some ideas to get you started:
   <img align="right" alt="GIF" src="https://media.boingboing.net/wp-content/uploads/2015/09/coffee_in_rain_by_kirokaze-d98qb8z.gif" width="450px" height="250px" />
 
-- 🔭 I’m currently working on my own projects
-- 🌱 I’m currently learning Flutter mobile app development
+- 🔭 I’m currently working at Aelum Consulting Pvt. Ltd as ServiceNow Developer
+- 🌱 I’m currently learning mobile app development with Flutter and React Native
 - 👯 I’m looking to collaborate on Open source Projects
-- 🤔 I’m looking for help with MERNG Stack
+- 🤔 I’m looking for help with Mobile App development
 - 💬 Ask me about Web and Mobile Development
 - 📫 How to reach me: mdirshaddev@outlook.com
 - 😄 Pronouns: Md Irshad
-- ⚡ Fun fact: I love to learn new Technologies more than myself and others.
+- ⚡ Fun fact: I love to explore the world of open source software.
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Some Stats ?
 
@@ -21,22 +21,14 @@ Here are some ideas to get you started:
   width="100%"
 />
 
-<!-- Code Inspector -->
-
-### My Code Inspector Stats
-<a href="https://frontend.code-inspector.com/public/user/github/mdirshaddev">
-   <img src="https://code-inspector.com/public/badge/user/github/mdirshaddev" alt="code inspector badge" />
-</a>
-
-
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My Contibution Stats:
 
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mdirshaddev)](https://github.com/LordDashMe/github-contribution-stats/)
 
-### Looking forward to chatting with you !!!
-![Sharingan's](https://media.giphy.com/media/12775LeUHMZjNu/source.gif)
-
-<!-- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mdirshaddev&repo=repogit)](https://github.com/anuraghazra/github-readme-stats) -->
+<div align="center">
+  <h3>Looking forward to chatting with you !!!</h3>
+  <img alt="sharinghan's" src="https://media.giphy.com/media/12775LeUHMZjNu/source.gif" />
+</div>
 
 <br/>
 
@@ -59,15 +51,25 @@ Here are some ideas to get you started:
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mdirshaddev&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 <br/>
-
 <div align="center">
   <h3 align="center">Connect with me<img align="center" src="https://github.com/rajput2107/rajput2107/blob/master/Assets/Handshake.gif" height="33px" /></h3> 
 </div>
- 
- 
+
 <p align="center">
-<a href="https://www.linkedin.com/in/mdirshaddev/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/mdirshaddev/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
 </p>
+
+<div align="center">
+  <h1 align="center">
+    👨‍💻 My Resume
+  </h1>
+  <a target="_blank" href="https://github.com/mdirshaddev/mdirshaddev/blob/main/Md%20Irshad%20(RESUME).pdf">
+    Link to my Resume
+  </a>
+  <p>Started working in Aelum Consulting Pvt. Ltd as ServiceNow Trainee</p>
+</div>
 
 ## I am also a Space enthusiast always eager to watch the NASA's Mission
 
