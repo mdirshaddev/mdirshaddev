@@ -13,7 +13,7 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with Mobile App development
 - 💬 Ask me about Web and Mobile Development
 - 📫 How to reach me: mdirshaddev@outlook.com
-- 😄 Pronouns: Md Irshad
+- 😄 Pronouns: Irshad
 - ⚡ Fun fact: I love to explore the world of open source software.
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Some Stats ?
@@ -26,6 +26,14 @@ Here are some ideas to get you started:
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My Contibution Stats:
 
 [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mdirshaddev)](https://github.com/LordDashMe/github-contribution-stats/)
+
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> GitHub Streak Stats ?
+
+<div align="center">
+<p>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=mdirshaddev&theme=github-dark-blue&hide_border=true" alt="Github streak" />
+</p>
+</div>
 
 <div align="center">
   <h3>Looking forward to chatting with you !!!</h3>
