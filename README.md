@@ -40,6 +40,17 @@ Here are some ideas to get you started:
   width="100%"
 />
 
+
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Snake Animation on contribution graph
+
+<!-- ![Snake animation](https://github.com/mdirshaddev/mdirshaddev/blob/output/github-contribution-grid-snake.svg) -->
+
+<!--  Using Image tag -->
+<img 
+  src="https://github.com/mdirshaddev/mdirshaddev/blob/output/github-contribution-grid-snake.svg"
+  width="100%"
+/>
+
 <div align="center">
   <h3>Looking forward to chatting with you !!!</h3>
   <img alt="sharinghan's" src="https://media.giphy.com/media/12775LeUHMZjNu/source.gif" />
