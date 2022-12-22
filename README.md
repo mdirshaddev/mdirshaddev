@@ -2,6 +2,7 @@
 
 <!-- **mdirshaddev/mdirshaddev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile. -->
 
+<!-- Profile Views Counter  -->
 ![](https://komarev.com/ghpvc/?username=mdirshaddev&color=brightgreen&style=flat)
 
 Here are some ideas to get you started:
@@ -25,15 +26,19 @@ Here are some ideas to get you started:
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> My Contibution Stats:
 
-[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mdirshaddev)](https://github.com/LordDashMe/github-contribution-stats/)
+<!-- [![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=mdirshaddev)](https://github.com/LordDashMe/github-contribution-stats/) -->
+
+<img 
+  src="https://github-contribution-stats.vercel.app/api/?username=mdirshaddev"
+  width="100%"
+/>
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> GitHub Streak Stats ?
 
-<div align="center">
-<p>
-<img src="https://github-readme-streak-stats.herokuapp.com?user=mdirshaddev&theme=github-dark-blue&hide_border=true" alt="Github streak" />
-</p>
-</div>
+<img 
+  src="https://streak-stats.demolab.com?user=mdirshaddev&theme=gruvbox_duo&mode=weekly"
+  width="100%"
+/>
 
 <div align="center">
   <h3>Looking forward to chatting with you !!!</h3>
