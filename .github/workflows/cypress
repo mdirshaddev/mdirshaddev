@@ -1,4 +1,4 @@
-name: '🧪 Cypress End to End Testing'
+name: "🧪 Cypress End to End Testing"
 
 on:
   workflow_call:
@@ -24,7 +24,7 @@ on:
 jobs:
   # single job that generates and outputs a common id
   prepare:
-    name: '🔧 Prepare UUID for Cypress Testing'
+    name: "🔧 Prepare UUID for Cypress Testing"
     runs-on: ubuntu-latest
     outputs:
       uuid: ${{ steps.uuid.outputs.value }}
@@ -38,21 +38,21 @@ jobs:
         run: echo "::set-output name=value::sha-$GITHUB_SHA-time-$(date +"%s")"
 
   cypress-test:
-    name: '🧪 Cypress Testing'
+    name: "🧪 Cypress Testing"
     needs: [prepare]
     runs-on: ubuntu-latest
 
     steps:
-      - name: '☁️ Checkout Repository'
+      - name: "☁️ Checkout Repository"
         uses: actions/checkout@v2
 
-      - name: '♻️ Download Artifacts'
+      - name: "♻️ Download Artifacts"
         uses: actions/download-artifact@v3
         with:
           name: ${{ inputs.artifact-name }}
           path: ${{ inputs.artifact-path }}
 
-      - name: '☁️ Cypress End to End Testing'
+      - name: "☁️ Cypress End to End Testing"
         id: cypress
         # Continue the build in case of an error, as we need to set the
         # commit status in the next step, both in case of success and failure
@@ -64,7 +64,7 @@ jobs:
           headed: false
           browser: electron
           start: yarn start
-          wait-on: 'http://localhost:3000'
+          wait-on: "http://localhost:3000"
           wait-on-timeout: 60
           ci-build-id: ${{ needs.prepare.outputs.uuid }}
           group: ${{ inputs.cypress-group-label }}
@@ -78,4 +78,4 @@ jobs:
           # Recommended: pass the GitHub token lets this action correctly
           # determine the unique run id necessary to re-run the checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DEBUG: 'cypress:*'
+          DEBUG: "cypress:*"
