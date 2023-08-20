@@ -6,20 +6,30 @@ on:
       artifact-name:
         required: true
         type: string
+        default: ""
+        description: "Artifact name"
       artifact-path:
         required: true
         type: string
+        default: ""
+        description: "Artifact path"
       cypress-group-label:
         required: true
         type: string
+        default: ""
+        description: "Label for Identifying the Testing group in Cypress Cloud"
       node-version-tag:
         required: true
         type: string
+        default: "node-18.17.0"
+        description: "Node version tag for v18.17.0"
     secrets:
       CYPRESS_PROJECT_ID:
         required: true
+        description: "Cypress cloud project id"
       CYPRESS_RECORD_KEY:
         required: true
+        description: "Cypress cloud record key"
 
 jobs:
   # single job that generates and outputs a common id
@@ -44,7 +54,7 @@ jobs:
 
     steps:
       - name: "☁️ Checkout Repository"
-        uses: actions/checkout@v2
+        uses: actions/checkout@v
 
       - name: "♻️ Download Artifacts"
         uses: actions/download-artifact@v3
