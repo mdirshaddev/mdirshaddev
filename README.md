@@ -40,6 +40,13 @@ Here are some ideas to get you started:
   width="100%"
 />
 
+### Appwrite
+
+Using Appwrite for my open source project. [mdirshad](https://github.com/mdirshaddev/mdirshad)
+
+<a href="https://cloud.appwrite.io/card/64fbe10d82fc7014f87f">
+	<img width="350" src="https://cloud.appwrite.io/v1/cards/cloud?userId=64fbe10d82fc7014f87f" alt="Appwrite Cloud Card" />
+</a>
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Snake Animation on contribution graph
 
