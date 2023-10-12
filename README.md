@@ -57,10 +57,10 @@ Using Appwrite for my open source project. [mdirshad](https://github.com/mdirsha
 <!-- ![Snake animation](https://github.com/mdirshaddev/mdirshaddev/blob/output/github-contribution-grid-snake.svg) -->
 
 <!--  Using Image tag -->
-<img 
+<!-- <img 
   src="https://github.com/mdirshaddev/mdirshaddev/blob/output/github-contribution-grid-snake.svg"
   width="100%"
-/>
+/> -->
 
 <div align="center">
   <h3>Looking forward to chatting with you !!!</h3>
