@@ -52,7 +52,7 @@ Using Appwrite for my open source project. [mdirshad](https://github.com/mdirsha
 	<img width="350" src="https://cloud.appwrite.io/v1/cards/cloud?userId=64fbe10d82fc7014f87f" alt="Appwrite Cloud Card" />
 </a>
 
-### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Snake Animation on contribution graph
+<!-- ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Snake Animation on contribution graph ->
 
 <!-- ![Snake animation](https://github.com/mdirshaddev/mdirshaddev/blob/output/github-contribution-grid-snake.svg) -->
 
