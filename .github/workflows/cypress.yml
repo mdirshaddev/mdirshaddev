@@ -1,0 +1,91 @@
+name: "🧪 Cypress End to End Testing"
+
+on:
+  workflow_call:
+    inputs:
+      artifact-name:
+        required: true
+        type: string
+        default: ""
+        description: "Artifact name"
+      artifact-path:
+        required: true
+        type: string
+        default: ""
+        description: "Artifact path"
+      cypress-group-label:
+        required: true
+        type: string
+        default: ""
+        description: "Label for Identifying the Testing group in Cypress Cloud"
+      node-version-tag:
+        required: true
+        type: string
+        default: "node-18.17.0"
+        description: "Node version tag for v18.17.0"
+    secrets:
+      CYPRESS_PROJECT_ID:
+        required: true
+        description: "Cypress cloud project id"
+      CYPRESS_RECORD_KEY:
+        required: true
+        description: "Cypress cloud record key"
+
+jobs:
+  # single job that generates and outputs a common id
+  prepare:
+    name: "🔧 Prepare UUID for Cypress Testing"
+    runs-on: ubuntu-latest
+    outputs:
+      uuid: ${{ steps.uuid.outputs.value }}
+
+    steps:
+      - name: Generate unique ID 💎
+        id: uuid
+        # take the current commit + timestamp together
+        # the typical value would be something like
+        # "sha-5d3fe...35d3-time-1620841214"
+        run: echo "::set-output name=value::sha-$GITHUB_SHA-time-$(date +"%s")"
+
+  cypress-test:
+    name: "🧪 Cypress Testing"
+    needs: [prepare]
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "☁️ Checkout Repository"
+        uses: actions/checkout@v
+
+      - name: "♻️ Download Artifacts"
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ inputs.artifact-name }}
+          path: ${{ inputs.artifact-path }}
+
+      - name: "☁️ Cypress End to End Testing"
+        id: cypress
+        # Continue the build in case of an error, as we need to set the
+        # commit status in the next step, both in case of success and failure
+        continue-on-error: true
+        uses: cypress-io/github-action@v4
+        with:
+          install: true
+          # Specify Browser since container image is compile with Firefox
+          headed: false
+          browser: electron
+          start: yarn start
+          wait-on: "http://localhost:3000"
+          wait-on-timeout: 60
+          ci-build-id: ${{ needs.prepare.outputs.uuid }}
+          group: ${{ inputs.cypress-group-label }}
+          tag: ${{ inputs.node-version-tag }}
+          record: true
+          parallel: false
+          config-file: cypress.config.ts
+        env:
+          CYPRESS_PROJECT_ID: ${{ secrets.CYPRESS_PROJECT_ID }}
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          # Recommended: pass the GitHub token lets this action correctly
+          # determine the unique run id necessary to re-run the checks
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DEBUG: "cypress:*"

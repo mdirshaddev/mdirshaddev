@@ -1,0 +1,44 @@
+name: "Vercel Production Deployment"
+
+on:
+  workflow_call:
+    inputs:
+      is-prod-flag:
+        required: true
+        type: boolean
+        default: false
+        description: "Flag for identification of production or development"
+      working-directory:
+        required: true
+        type: string
+        default: ""
+        description: "Working directory path"
+    secrets:
+      VERCEL_API_TOKEN:
+        required: true
+        description: "Vercel API Token for integrating with Vercel"
+      VERCEL_PROJECT_ID:
+        required: true
+        description: "Vercel Project ID for integrating with Vercel hosted project"
+      VERCEL_ORG_ID:
+        required: true
+        description: "Vercel Organisation ID for integrating with Vercel"
+
+jobs:
+  deploy:
+    name: "🧑‍🚀 Deploy"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "☁️ Checkout Repository"
+        uses: actions/checkout@v3
+
+      - name: "🧑‍🚀 Vercel Production Deployment"
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_API_TOKEN }} # Required
+          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
+          vercel-args: ${{ inputs.is-prod-flag }} #Optional
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID}} #Required
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}} #Required
+          working-directory: ${{ inputs.working-directory }}
