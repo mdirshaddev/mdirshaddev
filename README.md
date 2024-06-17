@@ -17,6 +17,9 @@ Here are some ideas to get you started:
 - 😄 Pronouns: Irshad
 - ⚡ Fun fact: I love to explore the world of open source software.
 
+## Roadmap
+[![roadmap.sh](https://roadmap.sh/card/wide/653fcf14c5b7df990df60c50?variant=dark)](https://roadmap.sh)
+
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> Some Stats ?
 
 <img 
