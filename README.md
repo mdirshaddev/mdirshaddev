@@ -108,7 +108,7 @@ Using Appwrite for my open source project. [mdirshad](https://github.com/mdirsha
   <a target="_blank" href="https://github.com/mdirshaddev/mdirshaddev/blob/main/Md%20Irshad%20(RESUME).pdf">
     Link to my Resume
   </a>
-  <p>Started working in Aelum Consulting Pvt. Ltd as ServiceNow Trainee</p>
+  <p>Started working in Nowhere INC.</p>
 </div>
 
 ## I am also a Space enthusiast always eager to watch the NASA's Mission
